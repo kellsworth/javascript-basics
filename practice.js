@@ -1,6 +1,7 @@
 //////////////////PROBLEM 1////////////////////
 
 //Create a variable called myName that is a string data type
+var myName;
 
 //Code here
 
