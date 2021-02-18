@@ -79,16 +79,20 @@ var dog = {
   name: Rocky,
   color: red,
   age: 8,
+  goodBoy = true
 
 }
 
-let newBoolean = goodBoy;
 
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+var devMountainClassPet = {
+  name: 'Sam';
+}
+dogName = dogName.name;
 
 //////////////////PROBLEM 10////////////////////
 
