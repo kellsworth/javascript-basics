@@ -4,30 +4,36 @@
 var myName;
 
 //Code here
+var myName = "Hi"
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+var myAge = 55
+
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
+var lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
+var greatestFear = undefined
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+var devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
@@ -37,6 +43,10 @@ var myName;
 //plus the value of the name parameter.
 
 //Code here
+function greeting(name) {
+  return 'Hello, ' + name;
+}
+greeting('karen');
 
 //////////////////PROBLEM 7////////////////////
 
@@ -44,6 +54,10 @@ var myName;
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
+let newGreeting = function(name) {
+  return 'Hello, ' + name;
+}
+newGreeting('Sarah');
 
 //////////////////PROBLEM 8////////////////////
 
@@ -51,6 +65,7 @@ var myName;
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+var Groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -60,6 +75,15 @@ var myName;
 //and goodBoy (a boolean).
 
 //Code Here
+var dog = {
+  name: Rocky,
+  color: red,
+  age: 8,
+
+}
+
+let newBoolean = goodBoy;
+
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
